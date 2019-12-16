@@ -1,42 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html>   
     <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=2, shrink-to-fit=no">
+        <title>Bootstrap Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
     </head>
 
     <body>
-        <div class="wrapper"><!--Header tab-->
-            <header id="navbar"> Jose Mancha</header>
-            <ul>
-                <li> <a href="./index.html">About</a></li>
-                <li> <a href="./portfolio.html">Portfolio</a></li>
-                <li> <a href="#">Contact</a></li>
-            </ul>
-        </div>  
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="display-4" href="#" style="background-color: #4aaaa5; color:#ffffff;">Jose Mancha</a>
+                </div>
+                <div class="col-md-8">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link p-2 active" href="./index.html" style="color: #777777;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="./portfolio.html" style="color: #777777;">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="#" style="color: #777777;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
 
-        <div id="mainheaderborder"></div><!--line break-->
-        <div id="pattern"> <!--background image-->
-            <div class="wrapper"> <!--info inside box -->
-                <div id="mainheader">
-                    <h2>Contact</h2>
-                    <div id="mainheaderborder"></div>
-                    <form>
-                        Name<br>
-                        <input name="name"><br>
-                        Email<br>
-                        <input name="email"><br>
-                        Message<br>
-                        <textarea name="message"></textarea>
-                        <br>
-                    </form>
-                    
-                    <div id="submit">Submit</div>
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-header">
+                            <h4 class="display-10">Contact</h4>
+                        </div>
+                        <hr class="my-12">
+                        <form>
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input type="name" class="form-control" id="inputName">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div id="footerborder"></div>
-        <footer>Copyright&copy;</footer>
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+                <div class="row">
+              <span class="text-muted text-center col-md-12" style="background-color: #6666; color: #cccccc;" >Copyright&copy;</span>
+            </div>
+            </div>
+        </footer>
+
     </body>
 </html>

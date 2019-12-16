@@ -1,63 +1,119 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=2, shrink-to-fit=no">
+        <title>Bootstrap Portfolio</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
     </head>
 
     <body>
-        <div class="wrapper"><!--Header tab-->
-            <header id="navbar"> Jose Mancha</header>
-            <ul>
-                <li> <a href="./index.html">About</a></li>
-                <li> <a href="#">Portfolio</a></li>
-                <li> <a href="./contact.html">Contact</a></li>
-            </ul>
-        </div> 
-
-        <div id="mainheaderborder"></div><!--line break-->
-        
-        <div id="pattern"> <!--background image-->
-            <div class="wrapper"> <!--info inside box -->
-                <div id="mainheader">
-                    <h2>Portfolio</h2>
-                    <div id="mainheaderborder"></div> 
-                    <div class="clearfix">                
-                        <div class="container">
-                            <a href="#">
-                                <img src="./assets/images/hangman.jpg" alt="Hangman">
-                                <div class="text">Hangman</div>
-                            </a>
-                        </div>
-                        <div class="container">
-                            <a href="#">
-                                <img src="./assets/images/rpg.jpg" alt="RPG Game">
-                                <div class="text">RPG Game</div>
-                            </a>
-                        </div>
-                        <div class="container">
-                            <a href="#">
-                                <img src="./assets/images/trivia.jpg">
-                                <div class="text">Trivia Game</div>
-                            </a>
-                        </div>
-                        <div class="container">
-                            <a href="#">
-                                <img src="./assets/images/rutgers.jpg">
-                                <div class="text">Rutgers Info Widget</div>
-                            </a>
-                        </div>
-                        <div class="container">
-                            <a href="#">
-                                <img src="./assets/images/rock-paper.jpg">
-                                <div class="text">Rock Paper Scissors</div>
-                            </a>
-                        </div>
-                    </div>
-                </div>                   
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="display-4" href="#" style="background-color: #4aaaa5; color:#ffffff;">Jose Mancha</a>
+                </div>
+                <div class="col-md-8">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="./index.html" style="color: #777777;">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2 active" href="#" style="color: #777777;">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-2" href="./contact.html" style="color: #777777;">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-
-        <div id="footerborder"></div>
-        <footer>Copyright&copy;</footer>
+        
+        <div class="container">
+            <div class="jumbotron">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="page-header">
+                            <h4 class="display-10">Portfolio</h4>
+                        </div>
+                        <hr class="my-8">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="./assets/images/hangman.jpg" alt="Hangman" width="150" height="150" />
+                                    <div class="caption post-content"></div> 
+                                    <div class="details">
+                                        <h5 style="background-color: #4aaaa5; color:#ffffff;">Hangman</h5>   
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="./assets/images/rpg.jpg" alt="RPG Game" alt="Hangman" width="150" height="150" />
+                                    <div class="caption post-content"></div> 
+                                    <div class="details">
+                                        <h5 style="background-color: #4aaaa5; color:#ffffff;">RPG Game</h5>   
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="./assets/images/trivia.jpg" alt="Trivia" width="150" height="150" />
+                                    <div class="caption post-content"></div> 
+                                    <div class="details">
+                                        <h5 style="background-color: #4aaaa5; color:#ffffff;">Trivia Game</h5>   
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="./assets/images/rutgers.jpg" alt="Rutgers" alt="Hangman" width="150" height="150" />
+                                    <div class="caption post-content"></div> 
+                                    <div class="details">
+                                        <h5 style="background-color: #4aaaa5; color:#ffffff;">Rutgers Info Widget</h5>   
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail">
+                                    <img src="./assets/images/rock-paper.jpg" alt="Trivia" width="150" height="150" />
+                                    <div class="caption post-content"></div> 
+                                    <div class="details">
+                                        <h5 style="background-color: #4aaaa5; color:#ffffff;">Rock Paper Scissors</h5>   
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <footer class="footer mt-auto py-3">
+            <div class="container">
+                <div class="row">
+              <span class="text-muted text-center col-md-12" style="background-color: #6666; color: #cccccc;" >Copyright&copy;</span>
+            </div>
+            </div>
+        </footer>
     </body>
 </html>
